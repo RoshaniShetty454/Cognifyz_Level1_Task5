@@ -1,0 +1,63 @@
+body{
+
+    font-family: Arial;
+
+    background: linear-gradient(to right, #56ccf2, #2f80ed);
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    height: 100vh;
+}
+
+.container{
+
+    background: white;
+
+    padding: 30px;
+
+    border-radius: 10px;
+
+    text-align: center;
+
+    width: 350px;
+}
+
+input{
+
+    width: 90%;
+
+    padding: 10px;
+
+    margin: 10px 0;
+}
+
+button{
+
+    padding: 10px 15px;
+
+    border: none;
+
+    background: blue;
+
+    color: white;
+
+    cursor: pointer;
+
+    margin: 5px;
+}
+
+button:hover{
+
+    background: darkblue;
+}
+
+li{
+
+    text-align: left;
+
+    margin-top: 10px;
+}
